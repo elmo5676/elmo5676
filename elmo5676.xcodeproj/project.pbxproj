@@ -7,23 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		52FBD68D259AFA8A00A45F81 /* elmo5676App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52FBD67A259AFA8900A45F81 /* elmo5676App.swift */; };
-		52FBD68E259AFA8A00A45F81 /* elmo5676App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52FBD67A259AFA8900A45F81 /* elmo5676App.swift */; };
-		52FBD68F259AFA8A00A45F81 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52FBD67B259AFA8900A45F81 /* ContentView.swift */; };
-		52FBD690259AFA8A00A45F81 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52FBD67B259AFA8900A45F81 /* ContentView.swift */; };
-		52FBD691259AFA8A00A45F81 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52FBD67C259AFA8A00A45F81 /* Assets.xcassets */; };
-		52FBD692259AFA8A00A45F81 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52FBD67C259AFA8A00A45F81 /* Assets.xcassets */; };
+		52FBD69E259AFABD00A45F81 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 52FBD69D259AFABD00A45F81 /* README.md */; };
+		52FBD69F259AFABD00A45F81 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 52FBD69D259AFABD00A45F81 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		52FBD67A259AFA8900A45F81 /* elmo5676App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = elmo5676App.swift; sourceTree = "<group>"; };
-		52FBD67B259AFA8900A45F81 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		52FBD67C259AFA8A00A45F81 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		52FBD681259AFA8A00A45F81 /* elmo5676.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = elmo5676.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		52FBD684259AFA8A00A45F81 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		52FBD689259AFA8A00A45F81 /* elmo5676.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = elmo5676.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		52FBD68B259AFA8A00A45F81 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		52FBD68C259AFA8A00A45F81 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		52FBD681259AFA8A00A45F81 /* elmo5676.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = elmo5676.app; path = "/Users/elmo/Dropbox/02_4BitCrew/000_Cearus/elmo5676/build/Debug-iphoneos/elmo5676.app"; sourceTree = "<absolute>"; };
+		52FBD689259AFA8A00A45F81 /* elmo5676.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = elmo5676.app; path = /Users/elmo/Dropbox/02_4BitCrew/000_Cearus/elmo5676/build/Debug/elmo5676.app; sourceTree = "<absolute>"; };
+		52FBD69D259AFABD00A45F81 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,47 +38,8 @@
 		52FBD674259AFA8900A45F81 = {
 			isa = PBXGroup;
 			children = (
-				52FBD679259AFA8900A45F81 /* Shared */,
-				52FBD683259AFA8A00A45F81 /* iOS */,
-				52FBD68A259AFA8A00A45F81 /* macOS */,
-				52FBD682259AFA8A00A45F81 /* Products */,
+				52FBD69D259AFABD00A45F81 /* README.md */,
 			);
-			sourceTree = "<group>";
-		};
-		52FBD679259AFA8900A45F81 /* Shared */ = {
-			isa = PBXGroup;
-			children = (
-				52FBD67A259AFA8900A45F81 /* elmo5676App.swift */,
-				52FBD67B259AFA8900A45F81 /* ContentView.swift */,
-				52FBD67C259AFA8A00A45F81 /* Assets.xcassets */,
-			);
-			path = Shared;
-			sourceTree = "<group>";
-		};
-		52FBD682259AFA8A00A45F81 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				52FBD681259AFA8A00A45F81 /* elmo5676.app */,
-				52FBD689259AFA8A00A45F81 /* elmo5676.app */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		52FBD683259AFA8A00A45F81 /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				52FBD684259AFA8A00A45F81 /* Info.plist */,
-			);
-			path = iOS;
-			sourceTree = "<group>";
-		};
-		52FBD68A259AFA8A00A45F81 /* macOS */ = {
-			isa = PBXGroup;
-			children = (
-				52FBD68B259AFA8A00A45F81 /* Info.plist */,
-				52FBD68C259AFA8A00A45F81 /* macOS.entitlements */,
-			);
-			path = macOS;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -153,7 +105,7 @@
 				Base,
 			);
 			mainGroup = 52FBD674259AFA8900A45F81;
-			productRefGroup = 52FBD682259AFA8A00A45F81 /* Products */;
+			productRefGroup = 52FBD674259AFA8900A45F81;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -168,7 +120,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				52FBD691259AFA8A00A45F81 /* Assets.xcassets in Resources */,
+				52FBD69E259AFABD00A45F81 /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -176,7 +128,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				52FBD692259AFA8A00A45F81 /* Assets.xcassets in Resources */,
+				52FBD69F259AFABD00A45F81 /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -187,8 +139,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				52FBD68F259AFA8A00A45F81 /* ContentView.swift in Sources */,
-				52FBD68D259AFA8A00A45F81 /* elmo5676App.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -196,8 +146,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				52FBD690259AFA8A00A45F81 /* ContentView.swift in Sources */,
-				52FBD68E259AFA8A00A45F81 /* elmo5676App.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
